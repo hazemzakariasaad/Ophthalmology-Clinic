@@ -1,0 +1,102 @@
+{
+  "intents": [
+    {
+      "tag": "schedule_appointment",
+      "patterns": [
+        "I need to book an appointment",
+        "Can I get an appointment?",
+        "Schedule an appointment",
+        "I want to see the doctor"
+      ],
+      "responses": [
+        "You can book an appointment by visiting the 'Appointments' section on our website. Choose a doctor and time that works best for you.",
+        "Appointments can be scheduled online through our website's 'Appointments' section. Select your preferred doctor and time slot there."
+      ]
+    },
+    {
+      "tag": "doctor_availability",
+      "patterns": [
+        "When are the doctors available?",
+        "Doctor's schedule",
+        "Doctor's availability"
+      ],
+      "responses": [
+        "Our doctors are available Monday to Saturday. Visit our website's 'Appointments' section for specific times and to book directly.",
+        "Check the full schedules and availability of our doctors by visiting the 'Appointments' section on our website."
+      ]
+    },
+    {
+      "tag": "doctor_recommendation",
+      "patterns": [
+        "Can you recommend a doctor?",
+        "Which doctor should I see?",
+        "Doctor suggestion"
+      ],
+      "responses": [
+        "Explore our team of specialists by visiting the 'Doctors' section on our website, where you can find profiles and choose according to your health needs.",
+        "For recommendations on doctors, please refer to the 'Doctors' section on our website to view qualifications and specialties."
+      ]
+    },
+    {
+      "tag": "doctor_specialty",
+      "patterns": [
+        "Who specializes in retina problems?",
+        "I need a doctor for cataract surgery.",
+        "Find me an ophthalmologist who handles glaucoma."
+      ],
+      "responses": [
+        "Our specialists in retina problems, cataract surgery, and glaucoma are listed under the 'Specialty Services' on our website.",
+        "For specific eye conditions like retina issues or glaucoma, you can find our expert ophthalmologists listed on our website under 'Specialty Services'."
+      ]
+    },
+    {
+      "tag": "find_doctor",
+      "patterns": [
+        "I need an eye specialist",
+        "Who is the best ophthalmologist?",
+        "List of eye doctors"
+      ],
+      "responses": [
+        "Our eye specialists are detailed on our website. Visit the 'Doctors' section for information on their expertise and to book appointments.",
+        "For a list of our top ophthalmologists and their specialties, check out the 'Doctors' section on our website."
+      ]
+    },
+    {
+      "tag": "how_to_make_appointment",
+      "patterns": [
+        "How do I make an appointment?",
+        "Where can I book an appointment?",
+        "Can you help me with booking?",
+        "What should I do to schedule an appointment?"
+      ],
+      "responses": [
+        "Book your appointment online by accessing the 'Appointments' section on our website. You'll find all available times and doctors there.",
+        "To schedule an appointment, simply visit our 'Appointments' section on the website. You can choose a time and date that are convenient for you."
+      ]
+    },
+    {
+      "tag": "opening_hours",
+      "patterns": [
+        "What are your opening hours?",
+        "When are you open?",
+        "Clinic timings"
+      ],
+      "responses": [
+        "Our clinic operates from 9 AM to 5 PM during weekdays and 9 AM to 1 PM on Saturdays.",
+        "We are open Monday through Saturday from 9 AM to 5 PM. Visit us during these hours for in-person consultations."
+      ]
+    },
+        {
+      "tag": "emergency",
+      "patterns": [
+        "I need emergency help",
+        "Is this an emergency?",
+        "Urgent care"
+      ],
+      "responses": [
+        "In case of an emergency, dial our emergency contact number listed on the website or dial 911 for immediate assistance.",
+        "If this is a medical emergency, please call the emergency number provided on our website or contact local emergency services immediately."
+      ]
+    }
+  ]
+}
